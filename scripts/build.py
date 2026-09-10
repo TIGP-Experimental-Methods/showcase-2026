@@ -11,7 +11,7 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parents[1]
 REQUIRED = ["title", "student", "github", "project", "blurb", "live_url", "site_url", "repo_url", "image", "updated"]
 OPTIONAL = ["video_url"]
-PROJECTS = {"1", "2", "3a", "3b", "extra"}
+PROJECTS = {"1", "2", "3", "3a", "3b", "extra"}  # "3a"/"3b" accepted for old entries; use "3"
 NAME_RE = re.compile(r"^[a-z0-9][a-z0-9-]*--[a-z0-9][a-z0-9-]*\.json$")
 URL_RE = re.compile(r"^https?://\S+$")
 DATE_RE = re.compile(r"^\d{4}-\d{2}-\d{2}$")

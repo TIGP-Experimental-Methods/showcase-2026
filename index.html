@@ -54,14 +54,13 @@
     <button data-p="all" class="on">All</button>
     <button data-p="1">Project 1 · web app</button>
     <button data-p="2">Project 2 · phone ↔ ESP32</button>
-    <button data-p="3a">Project 3a · class board</button>
-    <button data-p="3b">Project 3b · housing</button>
+    <button data-p="3">Project 3 · the instrument</button>
     <button data-p="extra">Extras</button>
   </nav>
   <main class="wrap"><div class="grid" id="grid"><div class="empty">Loading…</div></div></main>
   <footer>Course site: <a href="https://tigp-experimental-methods.github.io/">tigp-experimental-methods.github.io</a> · updated <span id="stamp">—</span></footer>
   <script>
-    const LABEL = { "1":"Project 1 · web app", "2":"Project 2 · phone ↔ ESP32", "3a":"Project 3a · class board section", "3b":"Project 3b · housing", "extra":"Extra" };
+    const LABEL = { "1":"Project 1 · web app", "2":"Project 2 · phone ↔ ESP32", "3":"Project 3 · the instrument: board section, firmware, housing", "3a":"Project 3 · the instrument", "3b":"Project 3 · the instrument", "extra":"Extra" };
     let filter = "all", seen = new Set(), first = true;
     const esc = s => String(s ?? "").replace(/[&<>"']/g, c => ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]));
     const safeUrl = u => /^https?:\/\//i.test(u || "") ? u : "";
@@ -95,7 +94,8 @@
         const r = await fetch("projects.json?t=" + Date.now(), { cache: "no-store" });
         const list = await r.json();
         list.sort((a, b) => (b.updated || "").localeCompare(a.updated || "") || (a.title || "").localeCompare(b.title || ""));
-        const shown = list.filter(p => filter === "all" || String(p.project) === filter);
+        const norm = p => (p === "3a" || p === "3b") ? "3" : String(p);
+        const shown = list.filter(p => filter === "all" || norm(p.project) === filter);
         document.getElementById("grid").innerHTML = shown.length ? shown.map(card).join("") : `<div class="empty">Nothing here yet — the first project to be pushed appears within a minute.</div>`;
         list.forEach(p => seen.add((p.github || "") + "--" + (p.title || "")));
         first = false;

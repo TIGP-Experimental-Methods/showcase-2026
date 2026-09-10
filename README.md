@@ -33,7 +33,7 @@ The file, all fields required unless marked optional:
 | `title` | short, specific — the name of the thing, not the assignment |
 | `student` | your name as you want it shown |
 | `github` | your GitHub username (the file name starts with it) |
-| `project` | `"1"` (web app), `"2"` (phone ↔ ESP32), `"3a"` (class board section), `"3b"` (housing), `"extra"` (anything else) |
+| `project` | `"1"` (web app), `"2"` (phone ↔ ESP32), `"3"` (your instrument — one card for the board section, the firmware and the housing together, pointing at your Project-3 website), `"extra"` (anything else) |
 | `blurb` | two sentences, plain language: what it does and one thing that works or surprised you |
 | `live_url` | the running app; for an ESP32 app that only runs on the board, leave `""` and put a video in `video_url` |
 | `site_url` | your project website (GitHub Pages of the project repository): what it is, how it works, a picture, the link to the app |
