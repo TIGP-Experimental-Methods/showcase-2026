@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Project wall — Modern Experimental Techniques 2026</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&family=Source+Serif+4:opsz,wght@8..60,500;8..60,600;8..60,700&display=swap" rel="stylesheet">
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🧪</text></svg>">
+  <meta name="theme-color" content="#0e2a52">
+  <style>
+    :root { --bg:#f3f5f9; --card:#fff; --ink:#1b2536; --muted:#5a6b84; --line:#dde4ef; --brand-1:#0e2a52; --brand-2:#17518f; --accent:#0e8fa3; --accent-ink:#0b7080;
+            --serif:"Source Serif 4",Georgia,serif; --sans:"Inter",-apple-system,"Segoe UI",Arial,sans-serif; }
+    * { box-sizing:border-box; }
+    body { margin:0; font-family:var(--sans); color:var(--ink); background:var(--bg); line-height:1.5; }
+    header { padding:26px 20px 20px; color:#fff; border-bottom:3px solid var(--accent);
+      background: linear-gradient(rgba(255,255,255,.045) 1px,transparent 1px), linear-gradient(90deg,rgba(255,255,255,.045) 1px,transparent 1px), linear-gradient(135deg,var(--brand-1),var(--brand-2));
+      background-size:26px 26px,26px 26px,100% 100%; }
+    .wrap { max-width:1280px; margin:0 auto; }
+    header h1 { font-family:var(--serif); font-size:2rem; margin:0; }
+    header p { margin:6px 0 0; opacity:.9; }
+    header a { color:#cfe9ee; }
+    nav.filters { display:flex; gap:8px; flex-wrap:wrap; padding:14px 20px 0; }
+    nav.filters button { border:1px solid var(--line); background:var(--card); color:var(--ink); padding:6px 12px; border-radius:999px; cursor:pointer; font:inherit; font-size:.9rem; }
+    nav.filters button.on { background:var(--accent); border-color:var(--accent); color:#fff; }
+    main { padding:16px 20px 40px; }
+    .grid { display:grid; grid-template-columns:repeat(auto-fill,minmax(300px,1fr)); gap:18px; }
+    .card { background:var(--card); border:1px solid var(--line); border-radius:12px; overflow:hidden; display:flex; flex-direction:column; box-shadow:0 1px 2px rgba(14,42,82,.06); }
+    .card.new { outline:3px solid var(--accent); }
+    .media { aspect-ratio:16/10; background:#e9eef6; display:flex; align-items:center; justify-content:center; overflow:hidden; }
+    .media img, .media video { width:100%; height:100%; object-fit:cover; display:block; }
+    .media .ph { color:var(--muted); font-size:.9rem; }
+    .body { padding:14px 16px 16px; display:flex; flex-direction:column; gap:8px; flex:1; }
+    .tag { font-size:.75rem; text-transform:uppercase; letter-spacing:.06em; color:var(--accent-ink); font-weight:600; }
+    h2 { font-family:var(--serif); font-size:1.25rem; margin:0; line-height:1.25; }
+    .who { color:var(--muted); font-size:.9rem; }
+    .blurb { margin:0; font-size:.95rem; }
+    .links { display:flex; gap:8px; flex-wrap:wrap; margin-top:auto; padding-top:6px; }
+    .links a { text-decoration:none; font-size:.85rem; font-weight:600; padding:6px 10px; border-radius:8px; border:1px solid var(--line); color:var(--ink); }
+    .links a.primary { background:var(--accent); border-color:var(--accent); color:#fff; }
+    .links a.primary:hover { background:var(--accent-ink); }
+    .empty { color:var(--muted); padding:40px; text-align:center; }
+    footer { color:var(--muted); font-size:.85rem; text-align:center; padding:20px; }
+    @media (max-width:600px) { header h1 { font-size:1.5rem; } }
+  </style>
+</head>
+<body>
+  <header><div class="wrap">
+    <h1>Project wall — Modern Experimental Techniques 2026</h1>
+    <p>Every student's projects as they appear. Add yours: one JSON file and one picture in <a href="https://github.com/TIGP-Experimental-Methods/showcase-2026" target="_blank" rel="noopener">the showcase repository</a> (the tutor does it with you). This page refreshes itself.</p>
+  </div></header>
+  <nav class="filters wrap" id="filters">
+    <button data-p="all" class="on">All</button>
+    <button data-p="1">Project 1 · web app</button>
+    <button data-p="2">Project 2 · phone ↔ ESP32</button>
+    <button data-p="3a">Project 3a · class board</button>
+    <button data-p="3b">Project 3b · housing</button>
+    <button data-p="extra">Extras</button>
+  </nav>
+  <main class="wrap"><div class="grid" id="grid"><div class="empty">Loading…</div></div></main>
+  <footer>Course site: <a href="https://tigp-experimental-methods.github.io/">tigp-experimental-methods.github.io</a> · updated <span id="stamp">—</span></footer>
+  <script>
+    const LABEL = { "1":"Project 1 · web app", "2":"Project 2 · phone ↔ ESP32", "3a":"Project 3a · class board section", "3b":"Project 3b · housing", "extra":"Extra" };
+    let filter = "all", seen = new Set(), first = true;
+    const esc = s => String(s ?? "").replace(/[&<>"']/g, c => ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]));
+    const safeUrl = u => /^https?:\/\//i.test(u || "") ? u : "";
+    function media(p) {
+      const img = (p.image || "").replace(/^\/+/, "");
+      if (/\.(mp4|webm)$/i.test(img)) return `<video src="${esc(img)}" autoplay muted loop playsinline></video>`;
+      if (img && /^images\/[\w.\-]+$/.test(img)) return `<img src="${esc(img)}" alt="" loading="lazy">`;
+      return `<span class="ph">no picture yet</span>`;
+    }
+    function card(p) {
+      const key = (p.github || "") + "--" + (p.title || "");
+      const isNew = !first && !seen.has(key);
+      const live = safeUrl(p.live_url), site = safeUrl(p.site_url), repo = safeUrl(p.repo_url), video = safeUrl(p.video_url);
+      return `<article class="card${isNew ? " new" : ""}" data-p="${esc(p.project)}">
+        <div class="media">${media(p)}</div>
+        <div class="body">
+          <span class="tag">${esc(LABEL[p.project] || p.project)}</span>
+          <h2>${esc(p.title)}</h2>
+          <div class="who">${esc(p.student)}${p.github ? ` · <a href="https://github.com/${esc(p.github)}" target="_blank" rel="noopener">@${esc(p.github)}</a>` : ""}${p.updated ? ` · ${esc(p.updated)}` : ""}</div>
+          <p class="blurb">${esc(p.blurb)}</p>
+          <div class="links">
+            ${live ? `<a class="primary" href="${esc(live)}" target="_blank" rel="noopener">Open the app</a>` : ""}
+            ${site ? `<a href="${esc(site)}" target="_blank" rel="noopener">Project site</a>` : ""}
+            ${video ? `<a href="${esc(video)}" target="_blank" rel="noopener">Video</a>` : ""}
+            ${repo ? `<a href="${esc(repo)}" target="_blank" rel="noopener">Code</a>` : ""}
+          </div>
+        </div></article>`;
+    }
+    async function load() {
+      try {
+        const r = await fetch("projects.json?t=" + Date.now(), { cache: "no-store" });
+        const list = await r.json();
+        list.sort((a, b) => (b.updated || "").localeCompare(a.updated || "") || (a.title || "").localeCompare(b.title || ""));
+        const shown = list.filter(p => filter === "all" || String(p.project) === filter);
+        document.getElementById("grid").innerHTML = shown.length ? shown.map(card).join("") : `<div class="empty">Nothing here yet — the first project to be pushed appears within a minute.</div>`;
+        list.forEach(p => seen.add((p.github || "") + "--" + (p.title || "")));
+        first = false;
+        document.getElementById("stamp").textContent = new Date().toLocaleTimeString();
+      } catch (e) {
+        document.getElementById("grid").innerHTML = `<div class="empty">No projects.json yet — push the first project and the Action builds it.</div>`;
+      }
+    }
+    document.getElementById("filters").addEventListener("click", e => {
+      const b = e.target.closest("button"); if (!b) return;
+      filter = b.dataset.p;
+      document.querySelectorAll("#filters button").forEach(x => x.classList.toggle("on", x === b));
+      load();
+    });
+    load(); setInterval(load, 60000);
+  </script>
+</body>
+</html>

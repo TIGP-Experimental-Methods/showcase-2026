@@ -1,0 +1,13 @@
+{
+  "title": "Cart-pole — the reference example",
+  "student": "Shayne Bennetts (instructor)",
+  "github": "shaynebennetts",
+  "project": "1",
+  "blurb": "The instructor's reference for a Project-1-style build: a cart-pole you can push and balance, drawn on a canvas in plain JavaScript. Use it to see the shape of a finished entry; yours replaces it on the wall.",
+  "live_url": "https://tigp-experimental-methods.github.io/pendulum-example/",
+  "site_url": "https://github.com/TIGP-Experimental-Methods/pendulum-example#readme",
+  "repo_url": "https://github.com/TIGP-Experimental-Methods/pendulum-example",
+  "image": "",
+  "video_url": "",
+  "updated": "2026-09-10"
+}

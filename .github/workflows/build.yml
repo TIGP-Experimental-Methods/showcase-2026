@@ -1,0 +1,27 @@
+name: build projects.json
+on:
+  push:
+    branches: [main]
+    paths: ["projects/**", "images/**", "scripts/**", ".github/workflows/build.yml"]
+  workflow_dispatch:
+permissions:
+  contents: write
+concurrency:
+  group: build-wall
+  cancel-in-progress: false
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with: { ref: main }
+      - uses: actions/setup-python@v5
+        with: { python-version: "3.12" }
+      - name: Validate entries and build projects.json
+        run: python scripts/build.py
+      - name: Commit projects.json
+        run: |
+          git config user.name "showcase-bot"
+          git config user.email "actions@users.noreply.github.com"
+          git add projects.json
+          git diff --cached --quiet && echo "no change" || (git commit -m "build projects.json [skip ci]" && git pull --rebase origin main && git push)
