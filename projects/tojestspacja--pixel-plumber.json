@@ -1,0 +1,13 @@
+{
+  "title": "Pixel Plumber",
+  "student": "Yi-Tsai Liang",
+  "github": "tojestspacja",
+  "project": "1",
+  "blurb": "A tiny Super-Mario-like platformer in plain HTML5 Canvas — run, jump, stomp goombas, collect coins, reach the flag, with on-screen touch controls so it plays on a phone. The jump-arc physics (h = v0^2/2g) checked against the live game to within ~5%.",
+  "live_url": "https://tojestspacja.github.io/md-simulation/app/",
+  "site_url": "https://tojestspacja.github.io/md-simulation/",
+  "repo_url": "https://github.com/tojestspacja/md-simulation",
+  "image": "images/tojestspacja--pixel-plumber.png",
+  "video_url": "",
+  "updated": "2026-09-11"
+}
