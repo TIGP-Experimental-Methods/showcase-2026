@@ -1,0 +1,13 @@
+{
+  "title": "Load the train",
+  "student": "Shayne Bennetts (instructor)",
+  "github": "shaynebennetts",
+  "project": "1",
+  "blurb": "Drive a locomotive and twenty hopper cars under a grain chute and fill them without spilling: grain leaves the chute with no forward speed, so every tonne you load drags the train back, harder the faster you go. The surprise is that the locomotive can outrun its own chute — full power settles at 6.2 m/s, but a car only reaches 90 % in one pass below 4.8 m/s.",
+  "live_url": "https://shaynebennetts.github.io/load-the-train/app/",
+  "site_url": "https://shaynebennetts.github.io/load-the-train/",
+  "repo_url": "https://github.com/shaynebennetts/load-the-train",
+  "image": "images/shaynebennetts--load-the-train.gif",
+  "video_url": "",
+  "updated": "2026-09-12"
+}
