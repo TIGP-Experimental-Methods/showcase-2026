@@ -17,7 +17,7 @@
     "student": "Yi-Tsai Liang",
     "github": "tojestspacja",
     "project": "1",
-    "blurb": "A tiny Super-Mario-like platformer in plain HTML5 Canvas — run, jump, stomp goombas, collect coins, reach the flag, with on-screen touch controls so it plays on a phone. The jump-arc physics (h = v0^2/2g) checked against the live game to within ~5%.",
+    "blurb": "A tiny Super-Mario-like platformer in plain HTML5 Canvas, with a low-gravity zone and a frictionless ice zone that swap out the physics constants live, plus a toggleable readout of g, friction and the predicted jump height wherever you're standing. The jump-arc physics (h = v0^2/2g) checked against the live game to within ~5%.",
     "live_url": "https://tojestspacja.github.io/md-simulation/app/",
     "site_url": "https://tojestspacja.github.io/md-simulation/",
     "repo_url": "https://github.com/tojestspacja/md-simulation",
