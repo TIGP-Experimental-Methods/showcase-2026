@@ -1,5 +1,18 @@
 [
   {
+    "title": "Unfair Golf",
+    "student": "Tee Ren Qian",
+    "github": "Renqian03",
+    "project": "1",
+    "blurb": "An 8-hole browser golf game where every hole breaks a different rule of physics instead of just adding a hazard: gusting wind, a near-frictionless green, an inverse-square gravity well, teleporter pads, a drifting cup, and mirrored controls. Every wall bounce also carries randomized restitution, so no rebound is ever quite predictable.",
+    "live_url": "https://renqian03.github.io/unfair-golf/app/",
+    "site_url": "https://renqian03.github.io/unfair-golf/",
+    "repo_url": "https://github.com/Renqian03/unfair-golf",
+    "image": "images/renqian03--unfair-golf.png",
+    "video_url": "",
+    "updated": "2026-09-11"
+  },
+  {
     "title": "Cart-pole — the reference example",
     "student": "Shayne Bennetts (instructor)",
     "github": "shaynebennetts",
