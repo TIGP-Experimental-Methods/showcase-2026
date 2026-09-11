@@ -13,6 +13,19 @@
     "updated": "2026-09-12"
   },
   {
+    "title": "Cart-pole — the reference example",
+    "student": "Shayne Bennetts (instructor)",
+    "github": "shaynebennetts",
+    "project": "1",
+    "blurb": "The instructor's reference for a Project-1 build: a cart-pole you push with the arrow keys, or leave to a PD controller to balance. It exists to show a simulation being checked — predicted 2π√(L/g) = 2.006 s against 1.987 s measured, with the cart recoil and the finite amplitude accounting for the difference to 0.1 %.",
+    "live_url": "https://tigp-experimental-methods.github.io/pendulum-example/app/",
+    "site_url": "https://tigp-experimental-methods.github.io/pendulum-example/",
+    "repo_url": "https://github.com/TIGP-Experimental-Methods/pendulum-example",
+    "image": "images/shaynebennetts--pendulum-example.gif",
+    "video_url": "",
+    "updated": "2026-09-12"
+  },
+  {
     "title": "Unfair Golf",
     "student": "Tee Ren Qian",
     "github": "Renqian03",
@@ -50,18 +63,5 @@
     "image": "images/renqian03--glowmeter.png",
     "video_url": "",
     "updated": "2026-09-11"
-  },
-  {
-    "title": "Cart-pole — the reference example",
-    "student": "Shayne Bennetts (instructor)",
-    "github": "shaynebennetts",
-    "project": "1",
-    "blurb": "The instructor's reference for a Project-1-style build: a cart-pole you can push and balance, drawn on a canvas in plain JavaScript. Use it to see the shape of a finished entry; yours replaces it on the wall.",
-    "live_url": "https://tigp-experimental-methods.github.io/pendulum-example/",
-    "site_url": "https://github.com/TIGP-Experimental-Methods/pendulum-example#readme",
-    "repo_url": "https://github.com/TIGP-Experimental-Methods/pendulum-example",
-    "image": "",
-    "video_url": "",
-    "updated": "2026-09-10"
   }
 ]
