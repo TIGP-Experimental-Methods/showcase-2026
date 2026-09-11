@@ -10,7 +10,7 @@ from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
 REQUIRED = ["title", "student", "github", "project", "blurb", "live_url", "site_url", "repo_url", "image", "updated"]
-OPTIONAL = ["video_url", "rank"]
+OPTIONAL = ["video_url"]
 PROJECTS = {"1", "2", "3", "3a", "3b", "extra"}  # "3a"/"3b" accepted for old entries; use "3"
 NAME_RE = re.compile(r"^[a-z0-9][a-z0-9-]*--[a-z0-9][a-z0-9-]*\.json$")
 URL_RE = re.compile(r"^https?://\S+$")
@@ -63,20 +63,12 @@ for f in sorted((ROOT / "projects").glob("*.json")):
             errors.append(f"{f.name}: image '{img}' is over 8 MB — shrink it")
     d["project"] = str(d["project"])
     d.setdefault("video_url", "")
-    # Optional sort weight. Absent or 0 = normal, and student work should stay
-    # there; higher numbers sink. Used to keep the instructor's own cards and the
-    # reference example below the class's work on the projector.
-    if "rank" in d and not isinstance(d["rank"], int):
-        errors.append(f"{f.name}: 'rank' must be a whole number (lower sorts first)")
-    d["rank"] = int(d.get("rank", 0) or 0)
     entries.append(d)
 
 if errors:
     print("projects.json NOT built — fix these:\n  " + "\n  ".join(errors))
     sys.exit(1)
 
-# rank ascending first, then newest, then title. Negating the rank keeps the
-# whole key in one reverse=True sort without flipping the date order.
-entries.sort(key=lambda d: (-d["rank"], d["updated"], d["title"]), reverse=True)
+entries.sort(key=lambda d: (d["updated"], d["title"]), reverse=True)
 (ROOT / "projects.json").write_text(json.dumps(entries, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
 print(f"projects.json: {len(entries)} entries")

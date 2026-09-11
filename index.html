@@ -93,10 +93,7 @@
       try {
         const r = await fetch("projects.json?t=" + Date.now(), { cache: "no-store" });
         const list = await r.json();
-        // rank ascending (absent = 0), then newest first, then title.
-        list.sort((a, b) => ((a.rank || 0) - (b.rank || 0))
-          || (b.updated || "").localeCompare(a.updated || "")
-          || (a.title || "").localeCompare(b.title || ""));
+        list.sort((a, b) => (b.updated || "").localeCompare(a.updated || "") || (a.title || "").localeCompare(b.title || ""));
         const norm = p => (p === "3a" || p === "3b") ? "3" : String(p);
         const shown = list.filter(p => filter === "all" || norm(p.project) === filter);
         document.getElementById("grid").innerHTML = shown.length ? shown.map(card).join("") : `<div class="empty">Nothing here yet — the first project to be pushed appears within a minute.</div>`;

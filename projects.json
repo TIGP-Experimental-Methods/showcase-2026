@@ -1,47 +1,5 @@
 [
   {
-    "title": "Unfair Golf",
-    "student": "Tee Ren Qian",
-    "github": "Renqian03",
-    "project": "1",
-    "blurb": "An 8-hole browser golf game where every hole breaks a different rule of physics instead of just adding a hazard: gusting wind, a near-frictionless green, an inverse-square gravity well, teleporter pads, a drifting cup, and mirrored controls. Every wall bounce also carries randomized restitution, so no rebound is ever quite predictable.",
-    "live_url": "https://renqian03.github.io/unfair-golf/app/",
-    "site_url": "https://renqian03.github.io/unfair-golf/",
-    "repo_url": "https://github.com/Renqian03/unfair-golf",
-    "image": "images/renqian03--unfair-golf.png",
-    "video_url": "",
-    "updated": "2026-09-11",
-    "rank": 0
-  },
-  {
-    "title": "Pixel Plumber",
-    "student": "Yi-Tsai Liang",
-    "github": "tojestspacja",
-    "project": "1",
-    "blurb": "A tiny Super-Mario-like platformer in plain HTML5 Canvas, with a low-gravity zone and a frictionless ice zone that swap out the physics constants live, plus a toggleable readout of g, friction and the predicted jump height wherever you're standing. The jump-arc physics (h = v0^2/2g) checked against the live game to within ~5%.",
-    "live_url": "https://tojestspacja.github.io/md-simulation/app/",
-    "site_url": "https://tojestspacja.github.io/md-simulation/",
-    "repo_url": "https://github.com/tojestspacja/md-simulation",
-    "image": "images/tojestspacja--pixel-plumber.png",
-    "video_url": "",
-    "updated": "2026-09-11",
-    "rank": 0
-  },
-  {
-    "title": "Glowmeter",
-    "student": "Tee Ren Qian",
-    "github": "Renqian03",
-    "project": "2",
-    "blurb": "A phone web app that sets an ESP32-S3's onboard LED (colour + brightness) and streams a live measurement back as a strip chart at 20 Hz, over one WebSocket, no server in between. Runs unmodified class-board-2026 firmware; only the phone app is new, and it's flashed onto the board's own filesystem so it's served locally, avoiding any HTTPS/WebSocket mixed-content issue.",
-    "live_url": "https://renqian03.github.io/glowmeter/app/?demo=1",
-    "site_url": "https://renqian03.github.io/glowmeter/",
-    "repo_url": "https://github.com/Renqian03/glowmeter",
-    "image": "images/renqian03--glowmeter.png",
-    "video_url": "",
-    "updated": "2026-09-11",
-    "rank": 0
-  },
-  {
     "title": "Load the train",
     "student": "Shayne Bennetts (instructor)",
     "github": "shaynebennetts",
@@ -52,8 +10,7 @@
     "repo_url": "https://github.com/shaynebennetts/load-the-train",
     "image": "images/shaynebennetts--load-the-train.gif",
     "video_url": "",
-    "updated": "2026-09-12",
-    "rank": 1
+    "updated": "2026-09-12"
   },
   {
     "title": "Cart-pole — the reference example",
@@ -66,7 +23,45 @@
     "repo_url": "https://github.com/TIGP-Experimental-Methods/pendulum-example",
     "image": "images/shaynebennetts--pendulum-example.gif",
     "video_url": "",
-    "updated": "2026-09-12",
-    "rank": 2
+    "updated": "2026-09-12"
+  },
+  {
+    "title": "Unfair Golf",
+    "student": "Tee Ren Qian",
+    "github": "Renqian03",
+    "project": "1",
+    "blurb": "An 8-hole browser golf game where every hole breaks a different rule of physics instead of just adding a hazard: gusting wind, a near-frictionless green, an inverse-square gravity well, teleporter pads, a drifting cup, and mirrored controls. Every wall bounce also carries randomized restitution, so no rebound is ever quite predictable.",
+    "live_url": "https://renqian03.github.io/unfair-golf/app/",
+    "site_url": "https://renqian03.github.io/unfair-golf/",
+    "repo_url": "https://github.com/Renqian03/unfair-golf",
+    "image": "images/renqian03--unfair-golf.png",
+    "video_url": "",
+    "updated": "2026-09-11"
+  },
+  {
+    "title": "Pixel Plumber",
+    "student": "Yi-Tsai Liang",
+    "github": "tojestspacja",
+    "project": "1",
+    "blurb": "A tiny Super-Mario-like platformer in plain HTML5 Canvas, with a low-gravity zone and a frictionless ice zone that swap out the physics constants live, plus a toggleable readout of g, friction and the predicted jump height wherever you're standing. The jump-arc physics (h = v0^2/2g) checked against the live game to within ~5%.",
+    "live_url": "https://tojestspacja.github.io/md-simulation/app/",
+    "site_url": "https://tojestspacja.github.io/md-simulation/",
+    "repo_url": "https://github.com/tojestspacja/md-simulation",
+    "image": "images/tojestspacja--pixel-plumber.png",
+    "video_url": "",
+    "updated": "2026-09-11"
+  },
+  {
+    "title": "Glowmeter",
+    "student": "Tee Ren Qian",
+    "github": "Renqian03",
+    "project": "2",
+    "blurb": "A phone web app that sets an ESP32-S3's onboard LED (colour + brightness) and streams a live measurement back as a strip chart at 20 Hz, over one WebSocket, no server in between. Runs unmodified class-board-2026 firmware; only the phone app is new, and it's flashed onto the board's own filesystem so it's served locally, avoiding any HTTPS/WebSocket mixed-content issue.",
+    "live_url": "https://renqian03.github.io/glowmeter/app/?demo=1",
+    "site_url": "https://renqian03.github.io/glowmeter/",
+    "repo_url": "https://github.com/Renqian03/glowmeter",
+    "image": "images/renqian03--glowmeter.png",
+    "video_url": "",
+    "updated": "2026-09-11"
   }
 ]
