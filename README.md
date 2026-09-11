@@ -41,6 +41,9 @@ The file, all fields required unless marked optional:
 | `image` | path inside this repository, `images/...` |
 | `video_url` | optional: an unlisted YouTube link or a `.mp4` in `images/` |
 | `updated` | `YYYY-MM-DD` |
+| `rank` | optional, whole number, default 0. Cards sort by `rank` ascending first, then newest `updated` first. **Leave it out.** It exists so the instructor's own cards and the reference example can sit *below* the class's work instead of floating to the top every time they are touched. |
+
+Cards are ordered newest first, so re-pushing your entry brings it back to the top of the wall.
 
 `projects.json` is generated from the files in `projects/` by the GitHub Action on every push — do not edit it by hand. If your card does not appear within two minutes, open the *Actions* tab: the check tells you which field is wrong.
 

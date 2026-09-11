@@ -1,31 +1,5 @@
 [
   {
-    "title": "Load the train",
-    "student": "Shayne Bennetts (instructor)",
-    "github": "shaynebennetts",
-    "project": "1",
-    "blurb": "Drive a locomotive and twenty hopper cars under a grain chute and fill them without spilling: grain leaves the chute with no forward speed, so every tonne you load drags the train back, harder the faster you go. The surprise is that the locomotive can outrun its own chute — full power settles at 6.2 m/s, but a car only reaches 90 % in one pass below 4.8 m/s.",
-    "live_url": "https://shaynebennetts.github.io/load-the-train/app/",
-    "site_url": "https://shaynebennetts.github.io/load-the-train/",
-    "repo_url": "https://github.com/shaynebennetts/load-the-train",
-    "image": "images/shaynebennetts--load-the-train.gif",
-    "video_url": "",
-    "updated": "2026-09-12"
-  },
-  {
-    "title": "Cart-pole — the reference example",
-    "student": "Shayne Bennetts (instructor)",
-    "github": "shaynebennetts",
-    "project": "1",
-    "blurb": "The instructor's reference for a Project-1 build: a cart-pole you push with the arrow keys, or leave to a PD controller to balance. It exists to show a simulation being checked — predicted 2π√(L/g) = 2.006 s against 1.987 s measured, with the cart recoil and the finite amplitude accounting for the difference to 0.1 %.",
-    "live_url": "https://tigp-experimental-methods.github.io/pendulum-example/app/",
-    "site_url": "https://tigp-experimental-methods.github.io/pendulum-example/",
-    "repo_url": "https://github.com/TIGP-Experimental-Methods/pendulum-example",
-    "image": "images/shaynebennetts--pendulum-example.gif",
-    "video_url": "",
-    "updated": "2026-09-12"
-  },
-  {
     "title": "Unfair Golf",
     "student": "Tee Ren Qian",
     "github": "Renqian03",
@@ -36,7 +10,8 @@
     "repo_url": "https://github.com/Renqian03/unfair-golf",
     "image": "images/renqian03--unfair-golf.png",
     "video_url": "",
-    "updated": "2026-09-11"
+    "updated": "2026-09-11",
+    "rank": 0
   },
   {
     "title": "Pixel Plumber",
@@ -49,7 +24,8 @@
     "repo_url": "https://github.com/tojestspacja/md-simulation",
     "image": "images/tojestspacja--pixel-plumber.png",
     "video_url": "",
-    "updated": "2026-09-11"
+    "updated": "2026-09-11",
+    "rank": 0
   },
   {
     "title": "Glowmeter",
@@ -62,6 +38,35 @@
     "repo_url": "https://github.com/Renqian03/glowmeter",
     "image": "images/renqian03--glowmeter.png",
     "video_url": "",
-    "updated": "2026-09-11"
+    "updated": "2026-09-11",
+    "rank": 0
+  },
+  {
+    "title": "Load the train",
+    "student": "Shayne Bennetts (instructor)",
+    "github": "shaynebennetts",
+    "project": "1",
+    "blurb": "Drive a locomotive and twenty hopper cars under a grain chute and fill them without spilling: grain leaves the chute with no forward speed, so every tonne you load drags the train back, harder the faster you go. The surprise is that the locomotive can outrun its own chute — full power settles at 6.2 m/s, but a car only reaches 90 % in one pass below 4.8 m/s.",
+    "live_url": "https://shaynebennetts.github.io/load-the-train/app/",
+    "site_url": "https://shaynebennetts.github.io/load-the-train/",
+    "repo_url": "https://github.com/shaynebennetts/load-the-train",
+    "image": "images/shaynebennetts--load-the-train.gif",
+    "video_url": "",
+    "updated": "2026-09-12",
+    "rank": 1
+  },
+  {
+    "title": "Cart-pole — the reference example",
+    "student": "Shayne Bennetts (instructor)",
+    "github": "shaynebennetts",
+    "project": "1",
+    "blurb": "The instructor's reference for a Project-1 build: a cart-pole you push with the arrow keys, or leave to a PD controller to balance. It exists to show a simulation being checked — predicted 2π√(L/g) = 2.006 s against 1.987 s measured, with the cart recoil and the finite amplitude accounting for the difference to 0.1 %.",
+    "live_url": "https://tigp-experimental-methods.github.io/pendulum-example/app/",
+    "site_url": "https://tigp-experimental-methods.github.io/pendulum-example/",
+    "repo_url": "https://github.com/TIGP-Experimental-Methods/pendulum-example",
+    "image": "images/shaynebennetts--pendulum-example.gif",
+    "video_url": "",
+    "updated": "2026-09-12",
+    "rank": 2
   }
 ]
