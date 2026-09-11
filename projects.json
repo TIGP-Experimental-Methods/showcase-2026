@@ -13,6 +13,19 @@
     "updated": "2026-09-11"
   },
   {
+    "title": "Glowmeter",
+    "student": "Tee Ren Qian",
+    "github": "Renqian03",
+    "project": "2",
+    "blurb": "A phone web app that sets an ESP32-S3's onboard LED (colour + brightness) and streams a live measurement back as a strip chart at 20 Hz, over one WebSocket, no server in between. Runs unmodified class-board-2026 firmware; only the phone app is new, and it's flashed onto the board's own filesystem so it's served locally, avoiding any HTTPS/WebSocket mixed-content issue.",
+    "live_url": "https://renqian03.github.io/glowmeter/app/?demo=1",
+    "site_url": "https://renqian03.github.io/glowmeter/",
+    "repo_url": "https://github.com/Renqian03/glowmeter",
+    "image": "images/renqian03--glowmeter.png",
+    "video_url": "",
+    "updated": "2026-09-11"
+  },
+  {
     "title": "Cart-pole — the reference example",
     "student": "Shayne Bennetts (instructor)",
     "github": "shaynebennetts",
