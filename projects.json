@@ -1,5 +1,18 @@
 [
   {
+    "title": "Spin Runner + Pixel Plumber",
+    "student": "Yi-Tsai Liang",
+    "github": "tojestspacja",
+    "project": "1",
+    "blurb": "Two canvas games. Spin Runner puts you inside a 500 MHz magnet as the magnetization itself: 64 isochromats stepped through the Bloch equations, so resonance, T1, T2* and the spin echo are simulated, not animated, and the run ends in the Fourier transform of the FID you recorded. The echo peaks at 35 ms, not the textbook 2*tau = 40 ms, because the falling T2 envelope drags the maximum earlier.",
+    "live_url": "https://tojestspacja.github.io/md-simulation/spin/",
+    "site_url": "https://tojestspacja.github.io/md-simulation/",
+    "repo_url": "https://github.com/tojestspacja/md-simulation",
+    "image": "images/tojestspacja--pixel-plumber.png",
+    "video_url": "",
+    "updated": "2026-09-12"
+  },
+  {
     "title": "Unfair Golf",
     "student": "Tee Ren Qian",
     "github": "Renqian03",
@@ -9,19 +22,6 @@
     "site_url": "https://renqian03.github.io/unfair-golf/",
     "repo_url": "https://github.com/Renqian03/unfair-golf",
     "image": "images/renqian03--unfair-golf.png",
-    "video_url": "",
-    "updated": "2026-09-11"
-  },
-  {
-    "title": "Pixel Plumber",
-    "student": "Yi-Tsai Liang",
-    "github": "tojestspacja",
-    "project": "1",
-    "blurb": "A tiny Super-Mario-like platformer in plain HTML5 Canvas, with a low-gravity zone and a frictionless ice zone that swap out the physics constants live, plus a toggleable readout of g, friction and the predicted jump height wherever you're standing. The jump-arc physics (h = v0^2/2g) checked against the live game to within ~5%.",
-    "live_url": "https://tojestspacja.github.io/md-simulation/app/",
-    "site_url": "https://tojestspacja.github.io/md-simulation/",
-    "repo_url": "https://github.com/tojestspacja/md-simulation",
-    "image": "images/tojestspacja--pixel-plumber.png",
     "video_url": "",
     "updated": "2026-09-11"
   },
