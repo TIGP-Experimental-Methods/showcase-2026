@@ -1,0 +1,13 @@
+{
+  "title": "Photon Bench",
+  "student": "Law Lih Dong",
+  "github": "lihdong02",
+  "project": "extra",
+  "blurb": "A seven-stage optics puzzle: place 45-degree mirrors on a breadboard to steer 638, 589, 532 and 447 nm beams past beam dumps, through dichroic gates that pass only their own wavelength, and into the matching photodiode. The solver is a memoised walk over (cell, direction, wavelength), so a beam that mirrors loop back into itself terminates instead of spinning forever - and two beams crossing the same empty square pass clean through each other, which the last stage depends on.",
+  "live_url": "https://lihdong02.github.io/photon-bench/",
+  "site_url": "https://lihdong02.github.io/photon-bench/",
+  "repo_url": "https://github.com/LIHDONG02/photon-bench",
+  "image": "images/lihdong02--photon-bench.png",
+  "video_url": "",
+  "updated": "2026-09-21"
+}
