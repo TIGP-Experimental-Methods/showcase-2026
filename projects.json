@@ -1,5 +1,18 @@
 [
   {
+    "title": "Photon Bench",
+    "student": "Law Lih Dong",
+    "github": "lihdong02",
+    "project": "extra",
+    "blurb": "Place 45-degree mirrors on an optical breadboard to steer 638, 589, 532 and 447 nm beams past beam dumps and through dichroic gates into the photodiode that matches their wavelength. Seven stages; the surprise is the last one, where two beams have to cross the same empty square and pass clean through each other.",
+    "live_url": "https://lihdong02.github.io/photon-bench/",
+    "site_url": "https://lihdong02.github.io/photon-bench/",
+    "repo_url": "https://github.com/LIHDONG02/photon-bench",
+    "image": "images/lihdong02--photon-bench.png",
+    "video_url": "",
+    "updated": "2026-09-21"
+  },
+  {
     "title": "Calculator",
     "student": "Law Lih Dong",
     "github": "lihdong02",
