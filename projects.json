@@ -1,5 +1,31 @@
 [
   {
+    "title": "Slingshot",
+    "student": "Yi-Tsai Liang",
+    "github": "tojestspacja",
+    "project": "1",
+    "blurb": "Drag back from the probe and let go; everything after that is Newtonian gravity and nothing else, for seven levels. The last level is provably impossible on your own - the furthest any launch can reach is r = 1006 against a ring at 1150, by analysis and by brute force alike - so you have to steal speed from a passing moon.",
+    "live_url": "https://tojestspacja.github.io/md-simulation/slingshot/",
+    "site_url": "https://tojestspacja.github.io/md-simulation/",
+    "repo_url": "https://github.com/tojestspacja/md-simulation",
+    "image": "images/tojestspacja--slingshot.png",
+    "video_url": "",
+    "updated": "2026-09-23"
+  },
+  {
+    "title": "Pixel Plumber",
+    "student": "Yi-Tsai Liang",
+    "github": "tojestspacja",
+    "project": "extra",
+    "blurb": "The first game I built for this course: a Mario-style platformer that runs on a phone, with touch controls, coins, goombas and a flag at the end. It later grew low-gravity and no-friction zones with a live physics readout, and that is where I learned the physics has to change how the game plays, not just what the screen reports.",
+    "live_url": "https://tojestspacja.github.io/md-simulation/app/",
+    "site_url": "https://tojestspacja.github.io/md-simulation/games/",
+    "repo_url": "https://github.com/tojestspacja/md-simulation",
+    "image": "images/tojestspacja--pixel-plumber.png",
+    "video_url": "",
+    "updated": "2026-09-23"
+  },
+  {
     "title": "Photon Bench",
     "student": "Law Lih Dong",
     "github": "lihdong02",
@@ -24,19 +50,6 @@
     "image": "images/lihdong02--calculator.png",
     "video_url": "",
     "updated": "2026-09-18"
-  },
-  {
-    "title": "Spin Runner + Pixel Plumber",
-    "student": "Yi-Tsai Liang",
-    "github": "tojestspacja",
-    "project": "1",
-    "blurb": "Two canvas games. Spin Runner puts you inside a 500 MHz magnet as the magnetization itself: 64 isochromats stepped through the Bloch equations, so resonance, T1, T2* and the spin echo are simulated, not animated, and the run ends in the Fourier transform of the FID you recorded. The echo peaks at 35 ms, not the textbook 2*tau = 40 ms, because the falling T2 envelope drags the maximum earlier.",
-    "live_url": "https://tojestspacja.github.io/md-simulation/spin/",
-    "site_url": "https://tojestspacja.github.io/md-simulation/",
-    "repo_url": "https://github.com/tojestspacja/md-simulation",
-    "image": "images/tojestspacja--pixel-plumber.png",
-    "video_url": "",
-    "updated": "2026-09-12"
   },
   {
     "title": "Unfair Golf",
