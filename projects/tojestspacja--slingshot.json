@@ -1,0 +1,13 @@
+{
+  "title": "Slingshot",
+  "student": "Yi-Tsai Liang",
+  "github": "tojestspacja",
+  "project": "1",
+  "blurb": "Drag back from the probe and let go; everything after that is Newtonian gravity and nothing else, for seven levels. The last level is provably impossible on your own - the furthest any launch can reach is r = 1006 against a ring at 1150, by analysis and by brute force alike - so you have to steal speed from a passing moon.",
+  "live_url": "https://tojestspacja.github.io/md-simulation/slingshot/",
+  "site_url": "https://tojestspacja.github.io/md-simulation/",
+  "repo_url": "https://github.com/tojestspacja/md-simulation",
+  "image": "images/tojestspacja--slingshot.png",
+  "video_url": "",
+  "updated": "2026-09-23"
+}
