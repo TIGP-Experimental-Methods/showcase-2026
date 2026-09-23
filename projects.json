@@ -39,6 +39,19 @@
     "updated": "2026-09-23"
   },
   {
+    "title": "Echo Bridge: The Last Ferry",
+    "student": "Yi-Tsai Liang",
+    "github": "tojestspacja",
+    "project": "extra",
+    "blurb": "A six-chapter platform adventure: reverse moving bridges, deliver a toolbox, and help a harbor catch the last ferry. Every chapter has a verified playable route; optional notes connect your own crossing to NMR phase refocusing.",
+    "live_url": "https://tojestspacja.github.io/echo-bridge/game/",
+    "site_url": "https://tojestspacja.github.io/echo-bridge/",
+    "repo_url": "https://github.com/tojestspacja/echo-bridge",
+    "image": "images/tojestspacja--echo-bridge.png",
+    "video_url": "",
+    "updated": "2026-09-23"
+  },
+  {
     "title": "Photon Bench",
     "student": "Law Lih Dong",
     "github": "lihdong02",
