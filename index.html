@@ -14,13 +14,27 @@
             --serif:"Source Serif 4",Georgia,serif; --sans:"Inter",-apple-system,"Segoe UI",Arial,sans-serif; }
     * { box-sizing:border-box; }
     body { margin:0; font-family:var(--sans); color:var(--ink); background:var(--bg); line-height:1.5; }
-    header { padding:26px 20px 20px; color:#fff; border-bottom:3px solid var(--accent);
+    /* header and menu: the same as the course site (website/style.css) */
+    header { padding:34px 16px 26px; color:#fff; border-bottom:3px solid var(--accent);
       background: linear-gradient(rgba(255,255,255,.045) 1px,transparent 1px), linear-gradient(90deg,rgba(255,255,255,.045) 1px,transparent 1px), linear-gradient(135deg,var(--brand-1),var(--brand-2));
       background-size:26px 26px,26px 26px,100% 100%; }
+    .brand-wrap { max-width:1100px; margin:0 auto; display:flex; align-items:center; gap:18px; flex-wrap:wrap; }
+    .brand-title { margin:0; font-family:var(--serif); font-size:2.3rem; font-weight:700; letter-spacing:.01em; line-height:1.15; text-wrap:balance; }
+    .brand-title a { color:inherit; text-decoration:none; }
+    .brand-title a:hover { color:#cfe6f3; }
+    .brand-subtitle { margin:8px 0 0; color:#c9d9ef; font-size:1.02rem; line-height:1.5; max-width:62em; }
+    .brand-zh { color:#8fa9cc; font-size:.95rem; }
+    nav.menu-bar { background:#0b1f3d; padding:8px 12px; position:sticky; top:0; z-index:10; box-shadow:0 2px 10px rgba(10,25,50,.25); }
+    .menu { margin:0 auto; padding:0; list-style:none; max-width:1100px; display:flex; gap:4px; justify-content:center; flex-wrap:wrap; }
+    .menu a { text-decoration:none; color:#dbe6f5; font-weight:600; font-size:.95rem; letter-spacing:.01em; display:block; padding:7px 14px; border-radius:999px; transition:background .15s,color .15s; }
+    .menu a:hover { background:rgba(255,255,255,.10); color:#fff; }
+    .menu a.active { background:var(--accent); color:#fff; }
+    .menu a.lang { border:1px solid rgba(255,255,255,.35); margin-left:10px; }
+    /* the wall */
     .wrap { max-width:1280px; margin:0 auto; }
-    header h1 { font-family:var(--serif); font-size:2rem; margin:0; }
-    header p { margin:6px 0 0; opacity:.9; }
-    header a { color:#cfe9ee; }
+    .intro { padding:26px 20px 0; }
+    .intro h1 { font-family:var(--serif); font-size:1.7rem; margin:0; }
+    .intro p { margin:6px 0 0; color:var(--muted); }
     nav.filters { display:flex; gap:8px; flex-wrap:wrap; padding:14px 20px 0; }
     nav.filters button { border:1px solid var(--line); background:var(--card); color:var(--ink); padding:6px 12px; border-radius:999px; cursor:pointer; font:inherit; font-size:.9rem; }
     nav.filters button.on { background:var(--accent); border-color:var(--accent); color:#fff; }
@@ -42,14 +56,37 @@
     .links a.primary:hover { background:var(--accent-ink); }
     .empty { color:var(--muted); padding:40px; text-align:center; }
     footer { color:var(--muted); font-size:.85rem; text-align:center; padding:20px; }
-    @media (max-width:600px) { header h1 { font-size:1.5rem; } }
+    @media (max-width:640px) { .brand-title { font-size:1.55rem; } .intro h1 { font-size:1.3rem; } }
   </style>
 </head>
 <body>
-  <header><div class="wrap">
-    <h1>Project wall — Modern Experimental Techniques 2026</h1>
+  <header>
+    <div class="brand-wrap">
+      <div>
+        <h1 class="brand-title"><a href="https://tigp-experimental-methods.github.io/index.html">Modern Experimental Techniques – Physics</a></h1>
+        <p class="brand-subtitle">Basic skills for experimentalists: AI, printed circuit boards, firmware and basic mechanical design<br>
+          <span class="brand-zh">現代實驗技術－物理 · TIGP, Academia Sinica · PHT048 / TIGP722300</span></p>
+      </div>
+    </div>
+  </header>
+
+  <nav class="menu-bar">
+    <ul class="menu">
+      <li><a href="https://tigp-experimental-methods.github.io/index.html">Home</a></li>
+      <li><a href="https://tigp-experimental-methods.github.io/preparation.html">Preparation</a></li>
+      <li><a href="https://tigp-experimental-methods.github.io/lecture1.html">1 · AI</a></li>
+      <li><a href="https://tigp-experimental-methods.github.io/lecture2.html">2 · PCBs</a></li>
+      <li><a href="https://tigp-experimental-methods.github.io/lecture3.html">3 · Firmware &amp; Housing</a></li>
+      <li><a href="https://tigp-experimental-methods.github.io/projects.html">Project</a></li>
+      <li><a class="active" href="./">Showcase</a></li>
+      <li><a href="https://tigp-experimental-methods.github.io/resources.html">Resources</a></li><li><a class="lang" href="https://tigp-experimental-methods.github.io/index-zh.html" lang="zh-Hant-TW">中文</a></li>
+    </ul>
+  </nav>
+
+  <section class="intro wrap">
+    <h1>Project wall 2026</h1>
     <p>Every student's projects as they appear. Add yours: one JSON file and one picture in <a href="https://github.com/TIGP-Experimental-Methods/showcase-2026" target="_blank" rel="noopener">the showcase repository</a> (the tutor does it with you). This page refreshes itself.</p>
-  </div></header>
+  </section>
   <nav class="filters wrap" id="filters">
     <button data-p="all" class="on">All</button>
     <button data-p="1">Project 1 · web app</button>
