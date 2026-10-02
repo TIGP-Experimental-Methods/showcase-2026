@@ -1,0 +1,13 @@
+{
+  "title": "Class board instrument: the housing",
+  "student": "Shayne Bennetts (instructor)",
+  "github": "shaynebennetts",
+  "project": "3",
+  "blurb": "The class board, a small instrument and NMR console on an ESP32-S3, in a printed housing: a base, a two-colour labelled cover, a separate SMA plate and an OLED hood, closed by a laser-cut acrylic lid. Every dimension came from the KiCad files and board meshes, and a clash test of all three board models against every part came back clean.",
+  "live_url": "",
+  "site_url": "https://shaynebennetts.github.io/class-board-instrument/",
+  "repo_url": "https://github.com/shaynebennetts/class-board-instrument",
+  "image": "images/shaynebennetts--class-board-instrument.gif",
+  "video_url": "",
+  "updated": "2026-10-02"
+}
