@@ -1,5 +1,18 @@
 [
   {
+    "title": "iPhone 16 Pro Max case",
+    "student": "Tee Ren Qian",
+    "github": "Renqian03",
+    "project": "extra",
+    "blurb": "A parametric phone case, written in OpenSCAD with BOSL2 after the housing, to see whether the same approach transfers. Only the body - 163.0 x 77.6 x 8.25 mm - could be verified from Apple's specs; the corner radius, camera island and every button position are estimates, each marked MEASURE in the file. For TPU, not PLA: a case has to stretch to go on and come off.",
+    "live_url": "",
+    "site_url": "https://github.com/TIGP-Experimental-Methods/class-board-2026/tree/a-renqian/docs/students/renqian/extras/iphone-16-pro-max-case",
+    "repo_url": "https://github.com/TIGP-Experimental-Methods/class-board-2026/tree/a-renqian/docs/students/renqian/extras/iphone-16-pro-max-case",
+    "image": "images/renqian03--iphone-16-pro-max-case.png",
+    "video_url": "",
+    "updated": "2026-10-02"
+  },
+  {
     "title": "NMR console: the analog front end and its housing",
     "student": "Tee Ren Qian",
     "github": "Renqian03",
