@@ -3,7 +3,7 @@
   "student": "Tee Ren Qian",
   "github": "Renqian03",
   "project": "extra",
-  "blurb": "For the electrochemistry side of my own research. The uncompensated resistance is whatever sits between the working electrode and the reference tip, so a cell clamped by hand has a different one every setup and two runs a week apart are not comparable. Drawing it found a conflict worth keeping: a 6 mm reference cannot sit 5 mm from a 6 mm working electrode, the holes merge. That is what a Luggin capillary is for.",
+  "blurb": "For the electrochemistry side of my own research. Uncompensated resistance is whatever sits between the working electrode and the reference tip, so a cell clamped by hand has a different one every setup. Drawing it found a conflict: a 6 mm reference cannot sit 5 mm from a 6 mm working electrode - the holes merge. That is what a Luggin capillary is for.",
   "live_url": "",
   "site_url": "https://github.com/TIGP-Experimental-Methods/class-board-2026/tree/a-renqian/docs/students/renqian/extras/three-electrode-cell-lid",
   "repo_url": "https://github.com/TIGP-Experimental-Methods/class-board-2026/tree/a-renqian/docs/students/renqian/extras/three-electrode-cell-lid",

@@ -13,15 +13,28 @@
     "updated": "2026-10-02"
   },
   {
-    "title": "Printed lab jigs: NMR coil former and a three-electrode cell lid",
+    "title": "Three-electrode cell lid",
     "student": "Tee Ren Qian",
     "github": "Renqian03",
     "project": "extra",
-    "blurb": "Two printed parts whose job is to make a measurement repeatable. The coil former fixes the winding window, so the inductance the noise budget assumes is the one on the bench: 38.5 x 2.7 mm gives 546 turns and 2.52 mH against the 2.53 the design wanted. A single layer cannot get there - 2900 turns and 1.2 m. The cell lid holds the electrode spacing, which is what sets the uncompensated resistance.",
+    "blurb": "For the electrochemistry side of my own research. Uncompensated resistance is whatever sits between the working electrode and the reference tip, so a cell clamped by hand has a different one every setup. Drawing it found a conflict: a 6 mm reference cannot sit 5 mm from a 6 mm working electrode - the holes merge. That is what a Luggin capillary is for.",
+    "live_url": "",
+    "site_url": "https://github.com/TIGP-Experimental-Methods/class-board-2026/tree/a-renqian/docs/students/renqian/extras/three-electrode-cell-lid",
+    "repo_url": "https://github.com/TIGP-Experimental-Methods/class-board-2026/tree/a-renqian/docs/students/renqian/extras/three-electrode-cell-lid",
+    "image": "images/renqian03--three-electrode-cell-lid.png",
+    "video_url": "",
+    "updated": "2026-10-02"
+  },
+  {
+    "title": "NMR receive coil former",
+    "student": "Tee Ren Qian",
+    "github": "Renqian03",
+    "project": "extra",
+    "blurb": "The receiver's noise budget rests on one number: 2.53 mH sets the resonating capacitor, the tank resistance and so the 15.3 nV/rtHz floor. Hand-wind twice and none of it describes the bench. A 38.5 x 2.7 mm winding window gives 546 turns and 2.52 mH. A single layer cannot reach it - 2900 turns, 1.2 m long.",
     "live_url": "",
     "site_url": "https://github.com/TIGP-Experimental-Methods/class-board-2026/tree/a-renqian/docs/students/renqian/coil",
     "repo_url": "https://github.com/TIGP-Experimental-Methods/class-board-2026/tree/a-renqian/docs/students/renqian/coil",
-    "image": "images/renqian03--printed-lab-jigs.png",
+    "image": "images/renqian03--nmr-coil-former.png",
     "video_url": "",
     "updated": "2026-10-02"
   },
