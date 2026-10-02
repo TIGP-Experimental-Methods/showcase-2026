@@ -1,0 +1,13 @@
+{
+  "title": "Spin Echo",
+  "student": "Tee Ren Qian",
+  "github": "Renqian03",
+  "project": "extra",
+  "blurb": "A timing game whose mechanic is the physics rather than a skin over it. A 90 degree pulse fires; you fire the 180. Dephasing is the spins losing agreement, not energy, so a pulse can undo it - but each shot hides its own T2, which nothing can, and the echo lands at twice your delay. Fire early and there is nothing to recover; late and T2 has eaten it.",
+  "live_url": "https://renqian03.github.io/spin-echo/",
+  "site_url": "https://renqian03.github.io/spin-echo/",
+  "repo_url": "https://github.com/Renqian03/spin-echo",
+  "image": "images/renqian03--spin-echo.png",
+  "video_url": "",
+  "updated": "2026-10-02"
+}
