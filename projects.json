@@ -1,5 +1,18 @@
 [
   {
+    "title": "2 mT NMR instrument: housing, probe and data models",
+    "student": "Yi-Tsai Liang",
+    "github": "tojestspacja",
+    "project": "3",
+    "blurb": "Work in progress: housing, probe, B0 coil pair and a 3D-printable data model, designed and cross-checked in OpenSCAD, with laser and water-jet versions. Simulating the probe showed the field is fine (about 2 Hz over the sample) but the voltage-driven B0 coils warm up and walk the line 138 Hz a minute.",
+    "live_url": "https://tojestspacja.github.io/nmr-instrument/",
+    "site_url": "https://github.com/TIGP-Experimental-Methods/class-board-2026/tree/w1-yi-tsai/docs/students/yi-tsai/housing",
+    "repo_url": "https://github.com/TIGP-Experimental-Methods/class-board-2026/tree/w1-yi-tsai/docs/students/yi-tsai/housing",
+    "image": "images/tojestspacja--nmr-instrument.png",
+    "video_url": "",
+    "updated": "2026-10-03"
+  },
+  {
     "title": "iPhone 16 Pro Max case",
     "student": "Tee Ren Qian",
     "github": "Renqian03",
@@ -100,19 +113,6 @@
     "site_url": "https://shaynebennetts.github.io/class-board-instrument/",
     "repo_url": "https://github.com/shaynebennetts/class-board-instrument",
     "image": "images/shaynebennetts--class-board-instrument.gif",
-    "video_url": "",
-    "updated": "2026-10-02"
-  },
-  {
-    "title": "2 mT NMR instrument: housing, probe and data models",
-    "student": "Yi-Tsai Liang",
-    "github": "tojestspacja",
-    "project": "3",
-    "blurb": "Work in progress: housing, probe, B0 coil pair and a 3D-printable data model, designed and cross-checked in OpenSCAD, with laser and water-jet versions. Simulating the probe showed the field is fine (about 2 Hz over the sample) but the voltage-driven B0 coils warm up and walk the line 138 Hz a minute.",
-    "live_url": "https://tojestspacja.github.io/nmr-instrument/",
-    "site_url": "https://github.com/TIGP-Experimental-Methods/class-board-2026/tree/w1-yi-tsai/docs/students/yi-tsai/housing",
-    "repo_url": "https://github.com/TIGP-Experimental-Methods/class-board-2026/tree/w1-yi-tsai/docs/students/yi-tsai/housing",
-    "image": "images/tojestspacja--nmr-instrument.png",
     "video_url": "",
     "updated": "2026-10-02"
   },
