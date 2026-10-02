@@ -1,0 +1,13 @@
+{
+  "title": "NMR receive coil former",
+  "student": "Tee Ren Qian",
+  "github": "Renqian03",
+  "project": "extra",
+  "blurb": "The receiver's noise budget rests on one number: 2.53 mH sets the resonating capacitor, the tank's parallel resistance and so the 15.3 nV/rtHz floor, and it is what puts the OPA1656 and OPA1612 on opposite sides of their crossover impedance. Hand-wind twice and none of that describes the bench. A 38.5 x 2.7 mm winding window gives 546 turns and 2.52 mH. A single layer cannot reach it: 2900 turns, 1.2 m long.",
+  "live_url": "",
+  "site_url": "https://github.com/TIGP-Experimental-Methods/class-board-2026/tree/a-renqian/docs/students/renqian/coil",
+  "repo_url": "https://github.com/TIGP-Experimental-Methods/class-board-2026/tree/a-renqian/docs/students/renqian/coil",
+  "image": "images/renqian03--nmr-coil-former.png",
+  "video_url": "",
+  "updated": "2026-10-02"
+}
