@@ -13,6 +13,19 @@
     "updated": "2026-10-02"
   },
   {
+    "title": "iPad Air 5 stand",
+    "student": "Tee Ren Qian",
+    "github": "Renqian03",
+    "project": "extra",
+    "blurb": "Two viewing angles, printed flat on its side so the whole part is one constant cross-section and nothing overhangs. The first version had notch positions from a formula with an invented constant in it, and the top notch broke out through the spine. It now checks each slot tip against the top edge.",
+    "live_url": "",
+    "site_url": "https://github.com/TIGP-Experimental-Methods/class-board-2026/tree/a-renqian/docs/students/renqian/extras/ipad-air-5-stand",
+    "repo_url": "https://github.com/TIGP-Experimental-Methods/class-board-2026/tree/a-renqian/docs/students/renqian/extras/ipad-air-5-stand",
+    "image": "images/renqian03--ipad-air-5-stand.png",
+    "video_url": "",
+    "updated": "2026-10-02"
+  },
+  {
     "title": "Three-electrode cell lid",
     "student": "Tee Ren Qian",
     "github": "Renqian03",
@@ -22,6 +35,19 @@
     "site_url": "https://github.com/TIGP-Experimental-Methods/class-board-2026/tree/a-renqian/docs/students/renqian/extras/three-electrode-cell-lid",
     "repo_url": "https://github.com/TIGP-Experimental-Methods/class-board-2026/tree/a-renqian/docs/students/renqian/extras/three-electrode-cell-lid",
     "image": "images/renqian03--three-electrode-cell-lid.png",
+    "video_url": "",
+    "updated": "2026-10-02"
+  },
+  {
+    "title": "Screw-cap pencil tube",
+    "student": "Tee Ren Qian",
+    "github": "Renqian03",
+    "project": "extra",
+    "blurb": "A drawing-tube in miniature: M44 x 4 coarse thread, four turns to close. Coarse because fine does not print - the flanks of an M44x1.5 are two extrusions wide at a 0.4 mm nozzle and the cap binds. THREAD_SLOP is the only fit in the part and the one thing a printer's tolerance moves.",
+    "live_url": "",
+    "site_url": "https://github.com/TIGP-Experimental-Methods/class-board-2026/tree/a-renqian/docs/students/renqian/extras/pencil-tube",
+    "repo_url": "https://github.com/TIGP-Experimental-Methods/class-board-2026/tree/a-renqian/docs/students/renqian/extras/pencil-tube",
+    "image": "images/renqian03--screw-cap-pencil-tube.png",
     "video_url": "",
     "updated": "2026-10-02"
   },
