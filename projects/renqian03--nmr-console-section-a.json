@@ -1,0 +1,13 @@
+{
+  "title": "NMR console: the analog front end and its housing",
+  "student": "Tee Ren Qian",
+  "github": "Renqian03",
+  "project": "3",
+  "blurb": "Work in progress. The analog side of the class board - thirteen nets from the link header out to the SMA field and the TX coil terminal - routed with no vias at all, so no analog signal changes reference plane. Around it a printed housing measured from the board meshes, its cover at two heights so an SMA thread stands 5.5 mm proud while a raised box clears the 13.8 mm OLED.",
+  "live_url": "",
+  "site_url": "https://renqian03.github.io/nmr-console-section-a/",
+  "repo_url": "https://github.com/Renqian03/nmr-console-section-a",
+  "image": "images/renqian03--nmr-console-section-a.png",
+  "video_url": "",
+  "updated": "2026-10-02"
+}
