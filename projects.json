@@ -13,6 +13,19 @@
     "updated": "2026-10-02"
   },
   {
+    "title": "Printed lab jigs: NMR coil former and a three-electrode cell lid",
+    "student": "Tee Ren Qian",
+    "github": "Renqian03",
+    "project": "extra",
+    "blurb": "Two printed parts whose job is to make a measurement repeatable. The coil former fixes the winding window, so the inductance the noise budget assumes is the one on the bench: 38.5 x 2.7 mm gives 546 turns and 2.52 mH against the 2.53 the design wanted. A single layer cannot get there - 2900 turns and 1.2 m. The cell lid holds the electrode spacing, which is what sets the uncompensated resistance.",
+    "live_url": "",
+    "site_url": "https://github.com/TIGP-Experimental-Methods/class-board-2026/tree/a-renqian/docs/students/renqian/coil",
+    "repo_url": "https://github.com/TIGP-Experimental-Methods/class-board-2026/tree/a-renqian/docs/students/renqian/coil",
+    "image": "images/renqian03--printed-lab-jigs.png",
+    "video_url": "",
+    "updated": "2026-10-02"
+  },
+  {
     "title": "NMR console: the analog front end and its housing",
     "student": "Tee Ren Qian",
     "github": "Renqian03",
