@@ -3,7 +3,7 @@
   "student": "Tee Ren Qian",
   "github": "Renqian03",
   "project": "3",
-  "blurb": "Work in progress. The analog side of the class board - thirteen nets from the link header out to the SMA field and the TX coil terminal - routed with no vias at all, so no analog signal changes reference plane. Around it a printed housing measured from the board meshes, its cover at two heights so an SMA thread stands 5.5 mm proud while a raised box clears the 13.8 mm OLED.",
+  "blurb": "Work in progress. The analog side of the class board - thirteen nets from the link header out to the SMA field and the TX coil terminal - routed with no vias at all, so no analog signal changes reference plane. Around it a housing rebuilt from my own spec: no vents, every connector and terminal pole named in white, and a cover split in two so every part prints without supports.",
   "live_url": "",
   "site_url": "https://renqian03.github.io/nmr-console-section-a/",
   "repo_url": "https://github.com/Renqian03/nmr-console-section-a",
