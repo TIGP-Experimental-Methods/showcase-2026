@@ -52,32 +52,6 @@
     "updated": "2026-10-02"
   },
   {
-    "title": "Screw-cap pencil tube",
-    "student": "Tee Ren Qian",
-    "github": "Renqian03",
-    "project": "extra",
-    "blurb": "A drawing-tube in miniature: M44 x 4 coarse thread, four turns to close. Coarse because fine does not print - the flanks of an M44x1.5 are two extrusions wide at a 0.4 mm nozzle and the cap binds. THREAD_SLOP is the only fit in the part and the one thing a printer's tolerance moves.",
-    "live_url": "",
-    "site_url": "https://github.com/TIGP-Experimental-Methods/class-board-2026/tree/a-renqian/docs/students/renqian/extras/pencil-tube",
-    "repo_url": "https://github.com/TIGP-Experimental-Methods/class-board-2026/tree/a-renqian/docs/students/renqian/extras/pencil-tube",
-    "image": "images/renqian03--screw-cap-pencil-tube.png",
-    "video_url": "",
-    "updated": "2026-10-02"
-  },
-  {
-    "title": "NMR receive coil former",
-    "student": "Tee Ren Qian",
-    "github": "Renqian03",
-    "project": "extra",
-    "blurb": "The receiver's noise budget rests on one number: 2.53 mH sets the resonating capacitor, the tank resistance and so the 15.3 nV/rtHz floor. Hand-wind twice and none of it describes the bench. A 38.5 x 2.7 mm winding window gives 546 turns and 2.52 mH. A single layer cannot reach it - 2900 turns, 1.2 m long.",
-    "live_url": "",
-    "site_url": "https://github.com/TIGP-Experimental-Methods/class-board-2026/tree/a-renqian/docs/students/renqian/coil",
-    "repo_url": "https://github.com/TIGP-Experimental-Methods/class-board-2026/tree/a-renqian/docs/students/renqian/coil",
-    "image": "images/renqian03--nmr-coil-former.png",
-    "video_url": "",
-    "updated": "2026-10-02"
-  },
-  {
     "title": "Class board instrument: the housing",
     "student": "Shayne Bennetts (instructor)",
     "github": "shaynebennetts",
