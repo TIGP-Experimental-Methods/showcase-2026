@@ -1,13 +1,13 @@
 {
-  "title": "NMR console: the analog front end and its housing",
+  "title": "NMR console, Section A: the analog front end, the instrument and its housing",
   "student": "Tee Ren Qian",
   "github": "Renqian03",
   "project": "3",
-  "blurb": "Work in progress. The analog side of the class board - thirteen nets from the link header out to the SMA field and the TX coil terminal - routed with no vias at all, so no analog signal changes reference plane. Around it a housing rebuilt from my own spec: no vents, every connector and terminal pole named in white, and a cover split in two so every part prints without supports.",
+  "blurb": "The analog side of the class board: 13 nets from the link header to the SMA field and TX coil terminal, routed with no vias - and the instrument it becomes: an 8-channel, 16-bit voltmeter and two-channel scope with a spectrum on a phone, alarms, a Telegram bot. Housing from my own spec: no vents, names in white, a two-part cover that prints without supports. Real-board numbers in mid-October.",
   "live_url": "",
   "site_url": "https://renqian03.github.io/nmr-console-section-a/",
   "repo_url": "https://github.com/Renqian03/nmr-console-section-a",
   "image": "images/renqian03--nmr-console-section-a.png",
   "video_url": "",
-  "updated": "2026-10-08"
+  "updated": "2026-10-09"
 }
