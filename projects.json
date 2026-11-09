@@ -1,5 +1,18 @@
 [
   {
+    "title": "Huayu Pocket",
+    "student": "semiconda",
+    "github": "semiconda",
+    "project": "1",
+    "blurb": "Learn Taiwanese Mandarin by playing rather than studying: quick quizzes on words, sentences and sounds. In the writing test you draw each character from memory with your finger, and a wrong stroke is refused.",
+    "live_url": "https://semiconda.github.io/huayu-pocket/app/",
+    "site_url": "https://semiconda.github.io/huayu-pocket/",
+    "repo_url": "https://github.com/semiconda/huayu-pocket",
+    "image": "images/semiconda--huayu-pocket.gif",
+    "updated": "2026-11-09",
+    "video_url": ""
+  },
+  {
     "title": "NMR console, Section A: the analog front end, the instrument and its housing",
     "student": "Tee Ren Qian",
     "github": "Renqian03",
