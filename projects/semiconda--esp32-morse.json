@@ -1,0 +1,12 @@
+{
+  "title": "ESP32 Morse",
+  "student": "semiconda",
+  "github": "semiconda",
+  "project": "2",
+  "blurb": "Type a message on your phone and the ESP32 blinks it in Morse on its LED, at a speed you choose, while the app follows each character live. The board times the message itself, not the phone, so even if the phone loses the connection the board still finishes the message.",
+  "live_url": "",
+  "site_url": "https://semiconda.github.io/esp32-morse/",
+  "repo_url": "https://github.com/semiconda/esp32-morse",
+  "image": "",
+  "updated": "2026-11-26"
+}
